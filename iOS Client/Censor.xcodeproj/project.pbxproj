@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030B0E32139A7FE100394EA9 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030B0E30139A7FE100394EA9 /* MainMenuViewController.m */; };
+		030B0E33139A7FE100394EA9 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030B0E31139A7FE100394EA9 /* MainMenuViewController.xib */; };
+		030B0E39139A850B00394EA9 /* AddPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030B0E37139A850B00394EA9 /* AddPersonViewController.m */; };
+		030B0E3A139A850B00394EA9 /* AddPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030B0E38139A850B00394EA9 /* AddPersonViewController.xib */; };
+		030B0E41139A89B900394EA9 /* UserInterfaceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 030B0E40139A89B900394EA9 /* UserInterfaceHelper.m */; };
+		033890A81399D1AD00A8686C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033890A71399D1AD00A8686C /* UIKit.framework */; };
+		033890AA1399D1AD00A8686C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033890A91399D1AD00A8686C /* Foundation.framework */; };
+		033890AC1399D1AD00A8686C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033890AB1399D1AD00A8686C /* CoreGraphics.framework */; };
+		033890AE1399D1AD00A8686C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033890AD1399D1AD00A8686C /* CoreData.framework */; };
+		033890B41399D1AD00A8686C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 033890B21399D1AD00A8686C /* InfoPlist.strings */; };
+		033890B71399D1AD00A8686C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 033890B61399D1AD00A8686C /* main.m */; };
+		033890BA1399D1AD00A8686C /* CensorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 033890B91399D1AD00A8686C /* CensorAppDelegate.m */; };
+		033890BD1399D1AD00A8686C /* Censor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 033890BB1399D1AD00A8686C /* Censor.xcdatamodeld */; };
+		033890C11399D1AD00A8686C /* CensorAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 033890C01399D1AD00A8686C /* CensorAppDelegate_iPhone.m */; };
+		033890C41399D1AD00A8686C /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033890C21399D1AD00A8686C /* MainWindow_iPhone.xib */; };
+		033890C81399D1AD00A8686C /* CensorAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 033890C71399D1AD00A8686C /* CensorAppDelegate_iPad.m */; };
+		033890CB1399D1AD00A8686C /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033890C91399D1AD00A8686C /* MainWindow_iPad.xib */; };
+		033890D71399D26400A8686C /* PersonService.m in Sources */ = {isa = PBXBuildFile; fileRef = 033890D61399D26400A8686C /* PersonService.m */; };
+		03DF653C139A767900BD85CA /* Person+ServiceQueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DF653B139A767900BD85CA /* Person+ServiceQueryString.m */; };
+		03DF654B139A79A200BD85CA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DF654A139A79A200BD85CA /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030B0E2F139A7FE100394EA9 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		030B0E30139A7FE100394EA9 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		030B0E31139A7FE100394EA9 /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		030B0E36139A850B00394EA9 /* AddPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPersonViewController.h; sourceTree = "<group>"; };
+		030B0E37139A850B00394EA9 /* AddPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPersonViewController.m; sourceTree = "<group>"; };
+		030B0E38139A850B00394EA9 /* AddPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPersonViewController.xib; sourceTree = "<group>"; };
+		030B0E3F139A89B900394EA9 /* UserInterfaceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInterfaceHelper.h; sourceTree = "<group>"; };
+		030B0E40139A89B900394EA9 /* UserInterfaceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInterfaceHelper.m; sourceTree = "<group>"; };
+		033890A31399D1AD00A8686C /* Censor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Censor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		033890A71399D1AD00A8686C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		033890A91399D1AD00A8686C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		033890AB1399D1AD00A8686C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		033890AD1399D1AD00A8686C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		033890B11399D1AD00A8686C /* Censor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Censor-Info.plist"; sourceTree = "<group>"; };
+		033890B31399D1AD00A8686C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		033890B51399D1AD00A8686C /* Censor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Censor-Prefix.pch"; sourceTree = "<group>"; };
+		033890B61399D1AD00A8686C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		033890B81399D1AD00A8686C /* CensorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CensorAppDelegate.h; sourceTree = "<group>"; };
+		033890B91399D1AD00A8686C /* CensorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CensorAppDelegate.m; sourceTree = "<group>"; };
+		033890BC1399D1AD00A8686C /* Censor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Censor.xcdatamodel; sourceTree = "<group>"; };
+		033890BF1399D1AD00A8686C /* CensorAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CensorAppDelegate_iPhone.h; path = iPhone/CensorAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		033890C01399D1AD00A8686C /* CensorAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CensorAppDelegate_iPhone.m; path = iPhone/CensorAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		033890C31399D1AD00A8686C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		033890C61399D1AD00A8686C /* CensorAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CensorAppDelegate_iPad.h; path = iPad/CensorAppDelegate_iPad.h; sourceTree = "<group>"; };
+		033890C71399D1AD00A8686C /* CensorAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CensorAppDelegate_iPad.m; path = iPad/CensorAppDelegate_iPad.m; sourceTree = "<group>"; };
+		033890CA1399D1AD00A8686C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		033890D51399D26400A8686C /* PersonService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonService.h; sourceTree = "<group>"; };
+		033890D61399D26400A8686C /* PersonService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonService.m; sourceTree = "<group>"; };
+		03DF653A139A767900BD85CA /* Person+ServiceQueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+ServiceQueryString.h"; sourceTree = "<group>"; };
+		03DF653B139A767900BD85CA /* Person+ServiceQueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+ServiceQueryString.m"; sourceTree = "<group>"; };
+		03DF6549139A79A200BD85CA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		03DF654A139A79A200BD85CA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		033890A01399D1AD00A8686C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033890A81399D1AD00A8686C /* UIKit.framework in Frameworks */,
+				033890AA1399D1AD00A8686C /* Foundation.framework in Frameworks */,
+				033890AC1399D1AD00A8686C /* CoreGraphics.framework in Frameworks */,
+				033890AE1399D1AD00A8686C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030B0E2D139A7F8600394EA9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				030B0E35139A84EE00394EA9 /* Add person */,
+				030B0E34139A84E400394EA9 /* Main menu */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		030B0E34139A84E400394EA9 /* Main menu */ = {
+			isa = PBXGroup;
+			children = (
+				030B0E2F139A7FE100394EA9 /* MainMenuViewController.h */,
+				030B0E30139A7FE100394EA9 /* MainMenuViewController.m */,
+				030B0E31139A7FE100394EA9 /* MainMenuViewController.xib */,
+			);
+			name = "Main menu";
+			sourceTree = "<group>";
+		};
+		030B0E35139A84EE00394EA9 /* Add person */ = {
+			isa = PBXGroup;
+			children = (
+				030B0E36139A850B00394EA9 /* AddPersonViewController.h */,
+				030B0E37139A850B00394EA9 /* AddPersonViewController.m */,
+				030B0E38139A850B00394EA9 /* AddPersonViewController.xib */,
+			);
+			name = "Add person";
+			sourceTree = "<group>";
+		};
+		030B0E3B139A898800394EA9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				030B0E3F139A89B900394EA9 /* UserInterfaceHelper.h */,
+				030B0E40139A89B900394EA9 /* UserInterfaceHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		033890981399D1AD00A8686C = {
+			isa = PBXGroup;
+			children = (
+				033890AF1399D1AD00A8686C /* Censor */,
+				033890A61399D1AD00A8686C /* Frameworks */,
+				033890A41399D1AD00A8686C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		033890A41399D1AD00A8686C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				033890A31399D1AD00A8686C /* Censor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		033890A61399D1AD00A8686C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				033890A71399D1AD00A8686C /* UIKit.framework */,
+				033890A91399D1AD00A8686C /* Foundation.framework */,
+				033890AB1399D1AD00A8686C /* CoreGraphics.framework */,
+				033890AD1399D1AD00A8686C /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		033890AF1399D1AD00A8686C /* Censor */ = {
+			isa = PBXGroup;
+			children = (
+				030B0E3B139A898800394EA9 /* Helpers */,
+				03DF6534139A762000BD85CA /* Model */,
+				033890D41399D24C00A8686C /* Services */,
+				033890B81399D1AD00A8686C /* CensorAppDelegate.h */,
+				033890B91399D1AD00A8686C /* CensorAppDelegate.m */,
+				033890BB1399D1AD00A8686C /* Censor.xcdatamodeld */,
+				033890BE1399D1AD00A8686C /* iPhone */,
+				033890C51399D1AD00A8686C /* iPad */,
+				033890B01399D1AD00A8686C /* Supporting Files */,
+			);
+			path = Censor;
+			sourceTree = "<group>";
+		};
+		033890B01399D1AD00A8686C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				033890B11399D1AD00A8686C /* Censor-Info.plist */,
+				033890B21399D1AD00A8686C /* InfoPlist.strings */,
+				033890B51399D1AD00A8686C /* Censor-Prefix.pch */,
+				033890B61399D1AD00A8686C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		033890BE1399D1AD00A8686C /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				030B0E2D139A7F8600394EA9 /* View Controllers */,
+				033890BF1399D1AD00A8686C /* CensorAppDelegate_iPhone.h */,
+				033890C01399D1AD00A8686C /* CensorAppDelegate_iPhone.m */,
+				033890C21399D1AD00A8686C /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		033890C51399D1AD00A8686C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				033890C61399D1AD00A8686C /* CensorAppDelegate_iPad.h */,
+				033890C71399D1AD00A8686C /* CensorAppDelegate_iPad.m */,
+				033890C91399D1AD00A8686C /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		033890D41399D24C00A8686C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				033890D51399D26400A8686C /* PersonService.h */,
+				033890D61399D26400A8686C /* PersonService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		03DF6534139A762000BD85CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03DF6536139A762600BD85CA /* Person */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		03DF6536139A762600BD85CA /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				03DF653A139A767900BD85CA /* Person+ServiceQueryString.h */,
+				03DF653B139A767900BD85CA /* Person+ServiceQueryString.m */,
+				03DF6549139A79A200BD85CA /* Person.h */,
+				03DF654A139A79A200BD85CA /* Person.m */,
+			);
+			name = Person;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		033890A21399D1AD00A8686C /* Censor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033890CE1399D1AD00A8686C /* Build configuration list for PBXNativeTarget "Censor" */;
+			buildPhases = (
+				0338909F1399D1AD00A8686C /* Sources */,
+				033890A01399D1AD00A8686C /* Frameworks */,
+				033890A11399D1AD00A8686C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Censor;
+			productName = Censor;
+			productReference = 033890A31399D1AD00A8686C /* Censor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0338909A1399D1AD00A8686C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0338909D1399D1AD00A8686C /* Build configuration list for PBXProject "Censor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 033890981399D1AD00A8686C;
+			productRefGroup = 033890A41399D1AD00A8686C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				033890A21399D1AD00A8686C /* Censor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		033890A11399D1AD00A8686C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033890B41399D1AD00A8686C /* InfoPlist.strings in Resources */,
+				033890C41399D1AD00A8686C /* MainWindow_iPhone.xib in Resources */,
+				033890CB1399D1AD00A8686C /* MainWindow_iPad.xib in Resources */,
+				030B0E33139A7FE100394EA9 /* MainMenuViewController.xib in Resources */,
+				030B0E3A139A850B00394EA9 /* AddPersonViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0338909F1399D1AD00A8686C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033890B71399D1AD00A8686C /* main.m in Sources */,
+				033890BA1399D1AD00A8686C /* CensorAppDelegate.m in Sources */,
+				033890BD1399D1AD00A8686C /* Censor.xcdatamodeld in Sources */,
+				033890C11399D1AD00A8686C /* CensorAppDelegate_iPhone.m in Sources */,
+				033890C81399D1AD00A8686C /* CensorAppDelegate_iPad.m in Sources */,
+				033890D71399D26400A8686C /* PersonService.m in Sources */,
+				03DF653C139A767900BD85CA /* Person+ServiceQueryString.m in Sources */,
+				03DF654B139A79A200BD85CA /* Person.m in Sources */,
+				030B0E32139A7FE100394EA9 /* MainMenuViewController.m in Sources */,
+				030B0E39139A850B00394EA9 /* AddPersonViewController.m in Sources */,
+				030B0E41139A89B900394EA9 /* UserInterfaceHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		033890B21399D1AD00A8686C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033890B31399D1AD00A8686C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		033890C21399D1AD00A8686C /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033890C31399D1AD00A8686C /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		033890C91399D1AD00A8686C /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033890CA1399D1AD00A8686C /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		033890CC1399D1AD00A8686C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		033890CD1399D1AD00A8686C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		033890CF1399D1AD00A8686C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Censor/Censor-Prefix.pch";
+				INFOPLIST_FILE = "Censor/Censor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		033890D01399D1AD00A8686C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Censor/Censor-Prefix.pch";
+				INFOPLIST_FILE = "Censor/Censor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0338909D1399D1AD00A8686C /* Build configuration list for PBXProject "Censor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033890CC1399D1AD00A8686C /* Debug */,
+				033890CD1399D1AD00A8686C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033890CE1399D1AD00A8686C /* Build configuration list for PBXNativeTarget "Censor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033890CF1399D1AD00A8686C /* Debug */,
+				033890D01399D1AD00A8686C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		033890BB1399D1AD00A8686C /* Censor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				033890BC1399D1AD00A8686C /* Censor.xcdatamodel */,
+			);
+			currentVersion = 033890BC1399D1AD00A8686C /* Censor.xcdatamodel */;
+			path = Censor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0338909A1399D1AD00A8686C /* Project object */;
+}
