@@ -10,7 +10,7 @@
 #import "Person.h"
 #import "PersonService.h"
 
-@interface AddPersonViewController : UIViewController {
+@interface AddPersonViewController : UIViewController <UITextFieldDelegate, SendPersonActionDelegate> {
 	UITextField *firstNameTextField;
 	UITextField *lastNameTextField;
 	UITextField *identifierTextField;
@@ -25,7 +25,7 @@
 @property(nonatomic, retain) IBOutlet UITextField *phoneNumberTextField;
 
 -(IBAction) cancelOperation:(id) sender;
--(IBAction) save:(id) sender;
+-(void) save:(id) sender;
 -(IBAction) saveAndContinue:(id) sender;
-
+-(IBAction) saveAndFinish:(id) sender;
 @end

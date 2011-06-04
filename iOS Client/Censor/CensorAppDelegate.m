@@ -21,23 +21,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-	
-	Person *p = [[PersonService sharedInstance] createPerson];
-	p.lastName = @"Simpson";
-	p.firstName = @"Homer";
-	p.address = @"742 Evergreen Terrace, Springfield";
-	p.phoneNumber = @"636-555-1488";
-	p.idNumber = [NSNumber numberWithLong:17121989];
-	p.cardNumber = [NSNumber numberWithLong:90210];
-	
-	NSError *error = nil;
-	if (![[PersonService sharedInstance] sendPerson:p toHost:[NSURL URLWithString:@"http://cherckytohackathon.appspot.com/"] withError:&error]) {
-		NSLog(@"An error ocurred: %@", [error localizedDescription]);
-	} else {
-		NSLog(@"Success sending!");
-	}
-	
-	// Override point for customization after application launch.
+	MainMenuViewController *mmvc = [[[MainMenuViewController alloc] init] autorelease];
+	UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:mmvc];
+	[self.window addSubview:nav.view];
 	[self.window makeKeyAndVisible];
     return YES;
 }

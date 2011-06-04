@@ -38,6 +38,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	self.navigationItem.title = @"Menu principal";
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -58,10 +59,17 @@
 #pragma mark Action handling
 
 -(void)showAddPeopleInterface:(id)sender {
-	
+	AddPersonViewController *apvc = [[AddPersonViewController alloc] init];
+	[self.navigationController pushViewController:apvc
+										 animated:YES];
+	[apvc release];
 }
 
 -(void)showPeopleListInterface:(id)sender {
+	PeopleListViewController *plvc = [[PeopleListViewController alloc] initWithStyle:UITableViewStylePlain];
+	[self.navigationController pushViewController:plvc 
+										 animated:YES];
+	[plvc release];
 }
 
 @end

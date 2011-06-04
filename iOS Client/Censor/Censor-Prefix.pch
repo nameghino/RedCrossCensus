@@ -13,3 +13,10 @@
 	#import <Foundation/Foundation.h>
 	#import <CoreData/CoreData.h>
 #endif
+
+#ifndef __SAFE_RELEASE
+#define __SAFE_RELEASE
+#define SAFE_RELEASE(A) {[A release]; A = nil;}
+#endif
+
+#import "UserInterfaceHelper.h"

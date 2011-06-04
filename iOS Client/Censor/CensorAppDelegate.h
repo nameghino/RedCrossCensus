@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Person.h"
 #import "PersonService.h"
+#import "MainMenuViewController.h"
 
 @interface CensorAppDelegate : NSObject <UIApplicationDelegate> {
 

@@ -17,11 +17,12 @@
 @synthesize addressTextField;
 @synthesize phoneNumberTextField;
 
+static NSArray *fieldOrder;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
     }
     return self;
 }
@@ -44,6 +45,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	self.navigationItem.title = @"Alta de persona";
+	fieldOrder = [[NSArray alloc] initWithObjects:identifierTextField,
+				  firstNameTextField, lastNameTextField, 
+				  addressTextField, phoneNumberTextField, nil];
+	
+	for (UITextField* tf in fieldOrder) {
+		tf.delegate = self;
+	}
+	
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -61,7 +71,30 @@
 }
 
 #pragma mark -
+#pragma mark TextField Delegate
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField {
+	for (int i=0; i < [fieldOrder count]; ++i) {
+		if (textField.returnKeyType == UIReturnKeyDone) {
+			[textField resignFirstResponder];
+			[self saveAndContinue:self];
+			return YES;
+		}
+		if (textField == [fieldOrder objectAtIndex:i]) {
+			[[fieldOrder objectAtIndex:i+1] becomeFirstResponder];
+			return NO;
+		}
+	}
+	return YES;
+}
+
+#pragma mark -
 #pragma mark Action handling
+-(void)clearTextfields {
+	for (UITextField* tf in fieldOrder) {
+		tf.text = nil;
+	}
+}
 
 -(void)save:(id)sender {
 	Person *p = [[PersonService sharedInstance] createPerson];
@@ -70,15 +103,44 @@
 	p.address = self.addressTextField.text;
 	p.idNumber = [NSNumber numberWithLongLong:[self.identifierTextField.text longLongValue]];
 	p.phoneNumber = self.phoneNumberTextField.text;
-	
+	p.cardNumber = [NSNumber numberWithLong:random()];
+
 	NSError* error = nil;
+	
+	[[PersonService sharedInstance] asyncSendPerson:p toHost:nil delegate:self];
+	
 	if ([[PersonService sharedInstance] savePerson:p withError:&error]) {
 		NSLog(@"Saved successfully");
+		[UserInterfaceHelper showAlertWithTitle:(p.uploaded ? @"Guardado y enviado" : @"Guardado") message:nil delegate:nil];
 	} else {
 		NSLog(@"Error saving: %@", [error localizedDescription]);
+		[UserInterfaceHelper handleError:error withDelegate:nil];
 	}
 }
 
+-(void)saveAndFinish:(id) sender {
+	[self save:sender];
+	[self.navigationController popViewControllerAnimated:YES];
+}
 
+-(void)saveAndContinue:(id)sender {
+	[self save:sender];
+	[self clearTextfields];
+}
 
+-(void)cancelOperation:(id)sender {
+	[self clearTextfields];
+}
+
+#pragma mark -
+#pragma mark Send Person Action Delegate
+
+-(void)sendOperationDidFinish:(Person *)p {
+	p.uploaded = [NSNumber numberWithBool:YES];
+	[[PersonService sharedInstance] savePerson:p withError:nil];
+}
+
+-(void)sendOperation:(Person *)p didFailWithError:(NSError *)error {
+	NSLog(@"Error \"%@\" sending \"%@, %@\"", [error localizedDescription], p.lastName, p.firstName);
+}
 @end

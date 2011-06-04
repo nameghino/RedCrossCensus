@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		030B0E32139A7FE100394EA9 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030B0E30139A7FE100394EA9 /* MainMenuViewController.m */; };
-		030B0E33139A7FE100394EA9 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030B0E31139A7FE100394EA9 /* MainMenuViewController.xib */; };
+		030B0E33139A7FE100394EA9 /* MainMenuViewController_iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030B0E31139A7FE100394EA9 /* MainMenuViewController_iphone.xib */; };
 		030B0E39139A850B00394EA9 /* AddPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030B0E37139A850B00394EA9 /* AddPersonViewController.m */; };
-		030B0E3A139A850B00394EA9 /* AddPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030B0E38139A850B00394EA9 /* AddPersonViewController.xib */; };
+		030B0E3A139A850B00394EA9 /* AddPersonViewController_iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030B0E38139A850B00394EA9 /* AddPersonViewController_iphone.xib */; };
 		030B0E41139A89B900394EA9 /* UserInterfaceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 030B0E40139A89B900394EA9 /* UserInterfaceHelper.m */; };
+		031B050D139AA4A700BB1BE8 /* PeopleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031B050B139AA4A700BB1BE8 /* PeopleListViewController.m */; };
+		031B050E139AA4A700BB1BE8 /* PeopleListViewController_iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031B050C139AA4A700BB1BE8 /* PeopleListViewController_iphone.xib */; };
 		033890A81399D1AD00A8686C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033890A71399D1AD00A8686C /* UIKit.framework */; };
 		033890AA1399D1AD00A8686C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033890A91399D1AD00A8686C /* Foundation.framework */; };
 		033890AC1399D1AD00A8686C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033890AB1399D1AD00A8686C /* CoreGraphics.framework */; };
@@ -25,6 +27,7 @@
 		033890C81399D1AD00A8686C /* CensorAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 033890C71399D1AD00A8686C /* CensorAppDelegate_iPad.m */; };
 		033890CB1399D1AD00A8686C /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033890C91399D1AD00A8686C /* MainWindow_iPad.xib */; };
 		033890D71399D26400A8686C /* PersonService.m in Sources */ = {isa = PBXBuildFile; fileRef = 033890D61399D26400A8686C /* PersonService.m */; };
+		0383D133139AA19A008A75E3 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0383D131139AA19A008A75E3 /* TPKeyboardAvoidingScrollView.m */; };
 		03DF653C139A767900BD85CA /* Person+ServiceQueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DF653B139A767900BD85CA /* Person+ServiceQueryString.m */; };
 		03DF654B139A79A200BD85CA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DF654A139A79A200BD85CA /* Person.m */; };
 /* End PBXBuildFile section */
@@ -32,12 +35,15 @@
 /* Begin PBXFileReference section */
 		030B0E2F139A7FE100394EA9 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
 		030B0E30139A7FE100394EA9 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
-		030B0E31139A7FE100394EA9 /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		030B0E31139A7FE100394EA9 /* MainMenuViewController_iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController_iphone.xib; sourceTree = "<group>"; };
 		030B0E36139A850B00394EA9 /* AddPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPersonViewController.h; sourceTree = "<group>"; };
 		030B0E37139A850B00394EA9 /* AddPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPersonViewController.m; sourceTree = "<group>"; };
-		030B0E38139A850B00394EA9 /* AddPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPersonViewController.xib; sourceTree = "<group>"; };
+		030B0E38139A850B00394EA9 /* AddPersonViewController_iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPersonViewController_iphone.xib; sourceTree = "<group>"; };
 		030B0E3F139A89B900394EA9 /* UserInterfaceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInterfaceHelper.h; sourceTree = "<group>"; };
 		030B0E40139A89B900394EA9 /* UserInterfaceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInterfaceHelper.m; sourceTree = "<group>"; };
+		031B050A139AA4A700BB1BE8 /* PeopleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleListViewController.h; sourceTree = "<group>"; };
+		031B050B139AA4A700BB1BE8 /* PeopleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleListViewController.m; sourceTree = "<group>"; };
+		031B050C139AA4A700BB1BE8 /* PeopleListViewController_iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeopleListViewController_iphone.xib; sourceTree = "<group>"; };
 		033890A31399D1AD00A8686C /* Censor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Censor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		033890A71399D1AD00A8686C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		033890A91399D1AD00A8686C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +64,8 @@
 		033890CA1399D1AD00A8686C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		033890D51399D26400A8686C /* PersonService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonService.h; sourceTree = "<group>"; };
 		033890D61399D26400A8686C /* PersonService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonService.m; sourceTree = "<group>"; };
+		0383D131139AA19A008A75E3 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = ../../../../ios/TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		0383D132139AA19A008A75E3 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = ../../../../ios/TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
 		03DF653A139A767900BD85CA /* Person+ServiceQueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+ServiceQueryString.h"; sourceTree = "<group>"; };
 		03DF653B139A767900BD85CA /* Person+ServiceQueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+ServiceQueryString.m"; sourceTree = "<group>"; };
 		03DF6549139A79A200BD85CA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -82,6 +90,7 @@
 		030B0E2D139A7F8600394EA9 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				031B0508139AA48E00BB1BE8 /* List people */,
 				030B0E35139A84EE00394EA9 /* Add person */,
 				030B0E34139A84E400394EA9 /* Main menu */,
 			);
@@ -93,7 +102,6 @@
 			children = (
 				030B0E2F139A7FE100394EA9 /* MainMenuViewController.h */,
 				030B0E30139A7FE100394EA9 /* MainMenuViewController.m */,
-				030B0E31139A7FE100394EA9 /* MainMenuViewController.xib */,
 			);
 			name = "Main menu";
 			sourceTree = "<group>";
@@ -103,7 +111,6 @@
 			children = (
 				030B0E36139A850B00394EA9 /* AddPersonViewController.h */,
 				030B0E37139A850B00394EA9 /* AddPersonViewController.m */,
-				030B0E38139A850B00394EA9 /* AddPersonViewController.xib */,
 			);
 			name = "Add person";
 			sourceTree = "<group>";
@@ -111,10 +118,21 @@
 		030B0E3B139A898800394EA9 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				0383D131139AA19A008A75E3 /* TPKeyboardAvoidingScrollView.m */,
+				0383D132139AA19A008A75E3 /* TPKeyboardAvoidingScrollView.h */,
 				030B0E3F139A89B900394EA9 /* UserInterfaceHelper.h */,
 				030B0E40139A89B900394EA9 /* UserInterfaceHelper.m */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		031B0508139AA48E00BB1BE8 /* List people */ = {
+			isa = PBXGroup;
+			children = (
+				031B050A139AA4A700BB1BE8 /* PeopleListViewController.h */,
+				031B050B139AA4A700BB1BE8 /* PeopleListViewController.m */,
+			);
+			name = "List people";
 			sourceTree = "<group>";
 		};
 		033890981399D1AD00A8686C = {
@@ -148,6 +166,7 @@
 		033890AF1399D1AD00A8686C /* Censor */ = {
 			isa = PBXGroup;
 			children = (
+				030B0E2D139A7F8600394EA9 /* View Controllers */,
 				030B0E3B139A898800394EA9 /* Helpers */,
 				03DF6534139A762000BD85CA /* Model */,
 				033890D41399D24C00A8686C /* Services */,
@@ -175,7 +194,7 @@
 		033890BE1399D1AD00A8686C /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				030B0E2D139A7F8600394EA9 /* View Controllers */,
+				0372AF5C139AB2A000419A4A /* Views */,
 				033890BF1399D1AD00A8686C /* CensorAppDelegate_iPhone.h */,
 				033890C01399D1AD00A8686C /* CensorAppDelegate_iPhone.m */,
 				033890C21399D1AD00A8686C /* MainWindow_iPhone.xib */,
@@ -200,6 +219,16 @@
 				033890D61399D26400A8686C /* PersonService.m */,
 			);
 			name = Services;
+			sourceTree = "<group>";
+		};
+		0372AF5C139AB2A000419A4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				031B050C139AA4A700BB1BE8 /* PeopleListViewController_iphone.xib */,
+				030B0E38139A850B00394EA9 /* AddPersonViewController_iphone.xib */,
+				030B0E31139A7FE100394EA9 /* MainMenuViewController_iphone.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		03DF6534139A762000BD85CA /* Model */ = {
@@ -271,8 +300,9 @@
 				033890B41399D1AD00A8686C /* InfoPlist.strings in Resources */,
 				033890C41399D1AD00A8686C /* MainWindow_iPhone.xib in Resources */,
 				033890CB1399D1AD00A8686C /* MainWindow_iPad.xib in Resources */,
-				030B0E33139A7FE100394EA9 /* MainMenuViewController.xib in Resources */,
-				030B0E3A139A850B00394EA9 /* AddPersonViewController.xib in Resources */,
+				030B0E33139A7FE100394EA9 /* MainMenuViewController_iphone.xib in Resources */,
+				030B0E3A139A850B00394EA9 /* AddPersonViewController_iphone.xib in Resources */,
+				031B050E139AA4A700BB1BE8 /* PeopleListViewController_iphone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +324,8 @@
 				030B0E32139A7FE100394EA9 /* MainMenuViewController.m in Sources */,
 				030B0E39139A850B00394EA9 /* AddPersonViewController.m in Sources */,
 				030B0E41139A89B900394EA9 /* UserInterfaceHelper.m in Sources */,
+				0383D133139AA19A008A75E3 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				031B050D139AA4A700BB1BE8 /* PeopleListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

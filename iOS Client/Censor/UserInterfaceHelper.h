@@ -13,6 +13,7 @@
     
 }
 
-+(void) handleError:(NSError*) error;
++(void) handleError:(NSError*) error withDelegate:(id<UIAlertViewDelegate>) delegate;
++(void) showAlertWithTitle:(NSString*) title message:(NSString*) message delegate:(id<UIAlertViewDelegate>) delegate;
 
 @end

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "AddPersonViewController.h"
+#import "PeopleListViewController.h"
 
 @interface MainMenuViewController : UIViewController {
     
