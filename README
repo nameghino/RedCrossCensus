@@ -1,0 +1,19 @@
+Censusing in Disaster Zones
+
+Due to the lack of connectivity, and energy in the worst-case scenario, it seems that it is almost impossible to use computers in disaster zones for an extended period of time.
+Today, and considering that obstacle, censuses are performed by hand in sheets of paper, listing people’s personal data and the resources that are needed to satisfy that person’s particular issues during the emergency. Every person or family is given vouchers for the posterior distribution of said resources.
+After that, the spreadsheet is typed, again by hand, into a spreadsheet, which is finally e-mailed to the headquarters in order to prepare the needed resources.
+According to the received data, the purchase of resources is evaluated and distribution is coordinated.
+That distribution is not efficient today, because of the fact that it relies on the aforementioned vouchers, which are usually lost, and sometimes, given the state of despair upon a disaster, people usually try to take advantage and, sometimes, problems arise.
+
+We are introducing the Red Cross Census project, which aims to capitalize on the technological progress by using devices with mobile connectivity and extended battery duration (when compared to more complex devices such as notebooks), because, we think, mobile devices can be used more efficiently in such a situation.
+By using mobile devices, the census and resource assessment can be made faster, eliminating the process of the handwritten data along with the following spreadsheet creation.
+After the first step of censusing is complete, the data is saved is sent to the Argentinian Red Cross Disaster Management Center, which is in charge of collecting the needed resources.
+By using modern technologies like QR codes or RFID, resource distribution is more efficient.
+Take the following as an example:
+
+A volunteer uses his or her device to collect data for every person in the disaster zone.
+The mobile application generates a QR code or configures an RFID tag, in order to speed up the identification of each person in case of emergency in the disaster zone, such as a person developing a critical medical condition on site.
+The code or tag is also used in the distribution of resources: for each resource a person needs, he or she is given a reusable card representing a resource item. The card is coded in a way that, upon distribution of the resources, that card is marked as used for that emergency response and cannot be used again until cleared. This also speeds up distribution, because, today, a group of volunteers are required to check every person in the line in a paper spreadsheet, check their needs, and finally cross them out when the process is complete. By using our system, the process would simply be to scan the person’s code or tag, scan the item’s code or card, and the system does the rest, checking if the person really needs that resource, checking whether he or she has already received it, and marking needs already satisfied.
+
+Using wireless connectivity like Wi-Fi or Bluetooth, multiple devices in a hot zone communicate between themselves, exchanging information, in order to prevent abuses of the system.
